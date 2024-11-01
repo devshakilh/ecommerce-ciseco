@@ -1,4 +1,3 @@
-Here's a README file for your e-commerce project with improved formatting and additional details:
 
 ---
 
@@ -117,5 +116,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For any questions or inquiries, please reach out at [mdshakil6565a@gmail.com](mailto:mdshakil6565a@gmail.com).
 
 --- 
-
-This README is a complete and informative file that users can follow to install, run, and contribute to the project!
