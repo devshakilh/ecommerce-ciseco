@@ -5,6 +5,7 @@ import ButtonPrimary from "@/shared/Button/ButtonPrimary";
 import Logo from "@/shared/Logo/Logo";
 import backgroundLineSvg from "@/images/Moon.svg";
 import Image from "next/image";
+import Link from "next/link";
 
 export interface SectionPromo2Props {
   className?: string;
@@ -24,7 +25,7 @@ const SectionPromo2: FC<SectionPromo2Props> = ({ className = "lg:pt-10" }) => {
         </div>
 
         <div className="lg:w-[45%] max-w-lg relative">
-          <Logo className="w-28" />
+          <Link  href='/' className="font-bold text-2xl">Only De</Link>
           <h2 className="font-semibold text-3xl sm:text-4xl xl:text-5xl 2xl:text-6xl mt-6 sm:mt-10 !leading-[1.13] tracking-tight">
             Special offer <br />
             in kids products

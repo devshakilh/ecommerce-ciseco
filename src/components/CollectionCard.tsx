@@ -22,7 +22,10 @@ const CollectionCard2: FC<CollectionCard2Props> = ({
   price,
 }) => {
   return (
+    
     <div className={`CollectionCard2 group relative ${className}`}>
+
+
       <div className="relative flex flex-col">
         <NcImage
           containerClassName="aspect-w-8 aspect-h-5 bg-neutral-100 rounded-2xl overflow-hidden"

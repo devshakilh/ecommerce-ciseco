@@ -19,6 +19,15 @@ const nextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/product-detail-2',
+        destination: '/404',
+        permanent: false,
+      },
+    ]
+  },
 };
 
 module.exports = nextConfig;

@@ -1,13 +1,14 @@
 "use client";
 
 import React, { createRef, FC, useState } from "react";
-import Logo from "@/shared/Logo/Logo";
+
 import MenuBar from "@/shared/MenuBar/MenuBar";
 import AvatarDropdown from "./AvatarDropdown";
 import Navigation from "@/shared/Navigation/Navigation";
 import CartDropdown from "./CartDropdown";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 export interface MainNav2LoggedProps {}
 
@@ -78,9 +79,12 @@ const MainNav2Logged: FC<MainNav2LoggedProps> = () => {
           <MenuBar />
         </div>
 
-        <div className="lg:flex-1 flex items-center">
-          <Logo className="flex-shrink-0" />
+      
+        
+          <div className="lg:flex-1 flex items-center text-2xl font-bold flex-shrink-0">
+       <Link href='/' > Only De</Link>
         </div>
+     
 
         <div className="flex-[2] hidden lg:flex justify-center mx-4">
           {showSearchForm ? renderSearchForm() : <Navigation />}

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { FC, useState } from "react";
-import Logo from "@/shared/Logo/Logo";
+
 import MenuBar from "@/shared/MenuBar/MenuBar";
 import LangDropdown from "./LangDropdown";
 import AvatarDropdown from "./AvatarDropdown";
@@ -10,6 +10,7 @@ import DropdownCategories from "./DropdownCategories";
 import CartDropdown from "./CartDropdown";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 export interface MainNav2Props {
   className?: string;
@@ -81,7 +82,8 @@ const MainNav2: FC<MainNav2Props> = ({ className = "" }) => {
           </div>
 
           <div className="flex lg:flex-1 items-center space-x-3 sm:space-x-8">
-            <Logo />
+          <Link href='/' > Only De</Link>
+          
             {!showSearchForm && (
               <div className="hidden md:block h-10 border-l border-slate-200 dark:border-slate-700"></div>
             )}

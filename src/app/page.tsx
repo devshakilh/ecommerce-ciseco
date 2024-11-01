@@ -71,7 +71,7 @@ function PageHome() {
         <div className="relative py-24 lg:py-32">
           <BackgroundSection />
           <div>
-            <Heading rightDescText="From the Ciseco blog">
+            <Heading rightDescText="From the onlyde blog">
               The latest news
             </Heading>
             <SectionMagazine5 />
