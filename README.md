@@ -1,76 +1,90 @@
-# [Ciseco | Shop & eCommerce NextJS 14 Template](https://ciseco-nextjs-ecommerce.vercel.app) 
+Here's a README file for your e-commerce project with improved formatting and additional details:
 
-![Homepage](https://github.com/UsmanLiaqat404/ciseco-nextjs-ecommerce/blob/main/src/images/demos/demo-1.png?raw=true)
-![Product Page](https://github.com/UsmanLiaqat404/ciseco-nextjs-ecommerce/blob/main/src/images/demos/demo-2.png?raw=true)
+---
 
-E-commerce Website
-This project is an e-commerce website built using Next.js and Tailwind CSS. It showcases a modern, responsive, and dynamic online store with features like product listing, product details, shopping cart, and checkout.
+# [Onlyde | Shop & eCommerce NextJS 14 Template](https://onlyde-nextjs-ecommerce.vercel.app)
 
-Features
-Home Page: Display featured products and promotions.
-Product Listing: Browse all available products with filtering and sorting options.
-Product Details: Detailed view of each product including images, descriptions, and reviews.
-Shopping Cart: Add, remove, and update product quantities.
-Checkout: Secure checkout process with form validation.
-Responsive Design: Mobile-first approach using Tailwind CSS.
-Technologies Used
-Next.js: React framework for server-side rendering and static site generation.
-Tailwind CSS: Utility-first CSS framework for rapid UI development.
-React: JavaScript library for building user interfaces.
-TypeScript: Superset of JavaScript for type safety and better development experience.
-Axios: Promise-based HTTP client for the browser and Node.js.
-Stripe: Payment processing platform for handling online transactions.
-Getting Started
-Prerequisites
-Node.js (v14 or later)
-npm or yarn
-Installation
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/your-username/ecommerce-next-tailwind.git
-Navigate to the project directory:
-bash
-Copy code
-cd ecommerce-next-tailwind
-Install the dependencies:
-bash
-Copy code
-npm install
-or
-bash
-Copy code
-yarn install
-Running the Development Server
-Start the development server:
-bash
-Copy code
-npm run dev
-or
-bash
-Copy code
-yarn dev
-Open your browser and visit http://localhost:3000 to view the application.
-Building for Production
-Build the project:
-bash
-Copy code
-npm run build
-or
-bash
-Copy code
-yarn build
-Start the production server:
-bash
-Copy code
-npm run start
-or
-bash
-Copy code
-yarn start
-Project Structure
-bash
-Copy code
+![Homepage](https://github.com/UsmanLiaqat404/onlyde-nextjs-ecommerce/blob/main/src/images/demos/demo-1.png?raw=true)
+![Product Page](https://github.com/UsmanLiaqat404/onlyde-nextjs-ecommerce/blob/main/src/images/demos/demo-2.png?raw=true)
+
+## E-commerce Website
+
+This project is a fully-featured e-commerce website template built using **Next.js** and **Tailwind CSS**. It provides a modern, responsive, and dynamic interface for an online store with essential e-commerce features like product listings, detailed product views, a shopping cart, and a secure checkout process.
+
+## Features
+
+- **Home Page**: Displays featured products and promotional content.
+- **Product Listing**: Browse all products with filtering and sorting options.
+- **Product Details**: View detailed information, images, descriptions, and reviews for each product.
+- **Shopping Cart**: Add, remove, and update product quantities.
+- **Checkout**: Secure checkout process with form validation.
+- **Responsive Design**: Built with a mobile-first approach using Tailwind CSS.
+
+## Technologies Used
+
+- **Next.js**: React framework for server-side rendering and static site generation.
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
+- **React**: JavaScript library for building user interfaces.
+- **TypeScript**: Superset of JavaScript for type safety and an enhanced development experience.
+- **Axios**: Promise-based HTTP client for browser and Node.js.
+- **Stripe**: Payment processing platform for secure online transactions.
+
+## Getting Started
+
+### Prerequisites
+
+- **Node.js** (v14 or later)
+- **npm** or **yarn**
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/ecommerce-next-tailwind.git
+   ```
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd ecommerce-next-tailwind
+   ```
+
+3. **Install the dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+### Running the Development Server
+
+1. **Start the development server:**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+2. Open your browser and visit [http://localhost:3000](http://localhost:3000) to view the application.
+
+### Building for Production
+
+1. **Build the project:**
+   ```bash
+   npm run build
+   # or
+   yarn build
+   ```
+
+2. **Start the production server:**
+   ```bash
+   npm run start
+   # or
+   yarn start
+   ```
+
+## Project Structure
+
+```bash
 .
 ├── components        # Reusable UI components
 ├── pages             # Next.js pages
@@ -88,11 +102,20 @@ Copy code
 ├── tsconfig.json     # TypeScript configuration
 ├── package.json      # Project dependencies and scripts
 └── README.md         # Project documentation
-Contributing
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
+```
 
-License
-This project is licensed under the MIT License.
+## Contributing
 
-Contact
-For any questions or inquiries, please contact mdshakil6565a@gmail.com.
+Contributions are welcome! Please fork the repository, make your changes, and submit a pull request. 
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or inquiries, please reach out at [mdshakil6565a@gmail.com](mailto:mdshakil6565a@gmail.com).
+
+--- 
+
+This README is a complete and informative file that users can follow to install, run, and contribute to the project!
